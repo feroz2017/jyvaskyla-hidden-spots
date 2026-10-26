@@ -75,11 +75,11 @@ In the current snapshot, each trail route also has points sampled about every 20
 git init -b main
 git add .
 git commit -m "Hidden Jyväskylä: first version"
-gh repo create hidden-jyvaskyla --public --source=. --remote=origin --push
-gh api -X POST repos/feroz2017/hidden-jyvaskyla/pages -f "source[branch]=main" -f "source[path]=/"
+gh repo create jyvaskyla-hidden-spots --public --source=. --remote=origin --push
+gh api -X POST repos/feroz2017/jyvaskyla-hidden-spots/pages -f "source[branch]=main" -f "source[path]=/"
 ```
 
-About a minute later the site is live at https://feroz2017.github.io/hidden-jyvaskyla/.
+About a minute later the site is live at https://feroz2017.github.io/jyvaskyla-hidden-spots/.
 
 ## Credits
 
